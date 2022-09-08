@@ -1,0 +1,51 @@
+{
+  "name": "ifun-ui-vite",
+  "version": "1.0.0",
+  "description": "A Simiple UI Template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run",
+    "dev": "vite",
+    "build": "vite build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "lint": "eslint --fix --ext .ts,.tsx,.vue src",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" \"src/**/*.vue\""
+  },
+  "keywords": [
+    "ifun",
+    "ifun-ui"
+  ],
+  "author": "hboot",
+  "license": "MIT",
+  "homepage": "https://github.com/ngd-b/fun-ui",
+  "devDependencies": {
+    "@iconify-json/ic": "^1.1.9",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/test-utils": "2.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.23.0",
+    "eslint-formatter-pretty": "^4.1.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.4.0",
+    "happy-dom": "6.0.4",
+    "prettier": "^2.7.1",
+    "terser": "5.4.0",
+    "typescript": "^4.8.2",
+    "unocss": "0.45.6",
+    "vite": "^3.1.0",
+    "vitepress": "0.22.4",
+    "vitepress-theme-demoblock": "1.4.2",
+    "vitest": "0.21.1"
+  },
+  "dependencies": {
+    "vue": "^3.2.38"
+  }
+}

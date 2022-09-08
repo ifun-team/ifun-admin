@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>IFun-ui Demo</h1>
+    <div id="app"></div>
+    <script type="module">
+        import 'ifun-ui-vite/dist/style.css'
+        import {createApp} from 'vue/dist/vue.esm-bundler.js'
+        import IFunUI from 'ifun-ui-vite/dist/ifun-ui.mjs'
+
+        createApp({
+            template:`<div style="margin-bottom:20px;">
+            <FButton color="blue">主要按钮</FButton>
+            <FButton color="green">绿色按钮</FButton>
+            <FButton color="gray">灰色按钮</FButton>
+            <FButton color="yellow">黄色按钮</FButton>
+            <FButton color="red">红色按钮</FButton>
+        </div>`
+        }).use(IFunUI).mount('#app')
+    </script>
+</body>
+</html>
