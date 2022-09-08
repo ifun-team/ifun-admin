@@ -20,4 +20,4 @@ jobs:
       - name: Install modules
         run: pnpm install
       - name: Run Test
-        run: pnpm run test:run
+        run: cd packages/ifun-ui-vite && pnpm run test:run
