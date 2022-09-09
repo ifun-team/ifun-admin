@@ -12,9 +12,9 @@
 
 - monorepo 风格(pnpm workspace)
 - 独立组件库
-- 独立脚本
+- 独立脚本 - create-ifun
 - 文档自动化工具
-- seed 项目模板
+- seed 项目模板 - ifun-ui-template
 
 ## 项目组成
 
