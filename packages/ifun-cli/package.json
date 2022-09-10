@@ -1,14 +1,26 @@
 {
   "name": "ifun-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "IFun-CLI. Quickly start width vue3 + vite3",
   "main": "index.js",
   "type": "module",
   "bin": {
     "create-ifun": "./bin/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ifun",
+    "ifun-ui",
+    "create-ifun"
+  ],
+  "homepage": "https://github.com/ifun-team/ifun-admin/tree/main/packages/ifun-cli@readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifun-team/ifun-admin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ifun-team/ifun-admin/issues"
+  },
+  "author": "hboot",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.1",
