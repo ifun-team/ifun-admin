@@ -1,6 +1,6 @@
 {
-  "name": "ifun-cli",
-  "version": "1.0.1",
+  "name": "create-ifun-app",
+  "version": "1.0.0",
   "description": "IFun-CLI. Quickly start width vue3 + vite3",
   "main": "index.js",
   "type": "module",
